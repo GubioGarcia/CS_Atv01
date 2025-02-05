@@ -19,10 +19,11 @@ public class Main {
         funcionario.aumentarSalario(250.00);
         System.out.println("Salario + Aumento: " + funcionario.getSalario());
 
-        Funcionario funcionario1 = new Gerente("Segundo", 1500.00, "Recepção");
+        Gerente funcionario1 = new Gerente("Segundo", 1500.00, "Recepção");
         System.out.println("\nNome: " + funcionario1.getNome());
         System.out.println("Salario: " + funcionario1.getSalario());
         funcionario1.aumentarSalario(100.00);
         System.out.println("Salario + Aumento: " + funcionario1.getSalario());
+        System.out.println("Departamento: " + funcionario1.getDepartamento());
     }
 }
